@@ -9,6 +9,7 @@ import com.zhu.material_design.common.base.activity.BaseActivity;
 public class MainActivity extends BaseActivity {
 
 
+
     @Override
     protected int initLayout() {
         return R.layout.activity_main;
@@ -17,7 +18,6 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
     }
 
 }
